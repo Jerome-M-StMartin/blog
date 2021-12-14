@@ -1,0 +1,48 @@
+12/12/2021 - Entry #0
+
+Hello Reader,
+
+So I've been working on a game. My second - well... my first attempt after
+releasing my first on itch.io. That first was a shame, really, but I felt it
+urgent to release and move on because it was a platformer. I don't much care
+for that genre -- I chose it because I percieved it would be easy.
+
+It's not advice to say that the easiest path is low-risk, low-reward. What I
+can add to that is the truth: the easiest path is low-risk, zero-reward.
+Challenge yourself, I urge you. Focus is the only natural state of bliss I've
+ever known, and it requires a loam of challenge to exist in any substantial way.
+
+So I'm taking my own lesson in hand as I work on this new game, which I am
+calling '*******REDACTED*******', for reasons I won't detail. Suffice it to
+say that the reasons are no longer relevant. What is relevant is the
+following:
+
+Genre: Rogue-like w/ meta-progression
+Language: Rust
+Paradigms: ECS for the core, OOP for the GUI
+Gimmick: REDACTED
+Story: You play the part of a Goblin of the lowest social class, a digger in
+the mines of a warren located deep in the crust of a far distant Earth. One
+day, you uncover an ancient artifact -- a lockbox, a safe with hinges long
+since rusted away to nothing. Insidei, a metallic object obviously meant to fit
+in the palm of a very large hand, but not so large that you aren't able to
+grasp it in your small calloused palms. A small protrusion juts out before
+your finger, obviously some sort of lever. You pull it-
+BANG!
+The shock of the noise stabs your ears like the realization of what this
+object is stabs your mind. It's dragonfire - a gun. It works. And after further
+examination, it seems it will work five more times. You hope this is enough to
+change your life. You hope that after showing your new power five times, you
+will be gone from this life and begun on a new one. One where, instead of
+digging for others, maybe -- for once in your life -- you'll be able to dig
+your own mine.
+
+All I have to add to the above at this time is that Rust is a fantastic
+language, I absolutely adore how ugly it makes Java seem by comparison. Like,
+wow, Java, brush your damn teeth once a decade at lease, please. PLEASE.
+
+After re-reading the start of this, all I can say is that I hope to improve
+the readability of this text in the future. I address it to you, dear reader,
+but truth be told I am writing this for self-enrichment. So...
+
+here goes the git commit -m "first blog entry"
