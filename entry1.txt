@@ -1,0 +1,38 @@
+Title: Error-Driven Programming
+
+Rust is an excellent teacher, as far as languages go, but damn
+refactoring is a pain when you fail to see the consequences of
+a change from a layer of abstraction deeper than you were looking at.
+That's a mouth-ful... or a mind-ful?
+
+I guess the challenge of programming is kinda like an eating contest
+where you have to eat the entire meal in a single bite. Can you hold
+all this STUFF in your conscious mind at once, or will you have to
+spit some out and cut it down into smaller pieces, or worse, choke?
+
+For context, I finished refactoring my UserInput module, and by
+extension my implementation of the Observer and Command patterns,
+to work in a multithreaded environment. My intent was to allow
+ECS(Entity-Component-System Architecture) components to hold an
+Arc<UserInput> reference. Turns out, that introduces an issue with
+Serde, which -- if you don't know -- is a rust crate which implements
+serialization and deserialization. Anyway, serde can't DEserialize Arc<>
+easily. I didn't consider this, but it makes sense now that the error
+is there:
+
+How can the code know if the original memory address in the Arc<> is the
+same memory address and when the Arc<> was serialized? I mean, the point of
+de/serialization is to store program state in long-term memory (SSD/HDD),
+so of course when the user loads the program back up, the object/struct in
+the Arc<> will have been loaded into some new, randomized location in memory.
+
+Lucky for me, I don't care to serialize the Arc<>. Ever. It's just for user
+input, which is stateless, so... I'm not making use of the #[serde(skip)]
+macro, which allows serde to ignore that field of the Player component
+when either serializing or deserializing.
+
+Hurdle crossed, onto the next. Thanks for reading, but again, not sure why you
+are reading in the first place. This isn't for you, though you are welcome to
+it.
+
+12/31/2021 - 11:14AM
