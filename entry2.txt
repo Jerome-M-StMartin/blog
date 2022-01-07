@@ -1,0 +1,54 @@
+BRUTAL
+
+It has become apparent, for the 4th or 5th time, that I am a poor visualizer
+of rust architecture. I keep pushing forward via error-driven development,
+believing some certain implementation will work for my use-case, only to
+realize far too late that I was implementing the wrong thing.
+
+Not the wrong thing entirely, mind you, just slightly wrong, but in
+the world of digital computing, slightly wrong is completely wrong. Zero is
+zero and one is one.
+
+To be more specific, I've implemented two OOP patterns, the Command Pattern
+and the Observer Pattern, both as part of the same system intended to
+asyncronously read from a UserInput.input field each frame, and then send
+commands to a cerain currently 'Focused' Observer. (UserInput is the
+Observable, in this case.) So the Observable calls an .update() method on its
+currently 'Focused' Observer; that Observer then calls .send() on itself,
+which sends a command object unique to that specific Observer/Commandable,
+which then calls .execute() on itself, performing some interior mutation
+congruent with the intent of the command.
+
+The way I did this is with trait objects. (Again, this is implemented in the
+Rust programming langauge. Trait objects are specific to this language, so if
+you know you know.) This was a mistake - trait objects are a HORRIBLE PAIN IN
+THE ASS to work with due to them not being Sized. (i.e. they don't implement
+the Sized trait, which means the compiler doesn't know how much memory to
+allocate for them.) So I'm getting constant, horrificly annoying errors
+dealing with unsized dynamic Command<T> trait objects being !Send and/or !Sync
+(i.e. not asyncronous), and... ugh I don't even want to type about it anymore.
+
+This isn't a criticism, and I don't think them not being Sized is an issue with
+the language. It makes perfect sense why a dynamic object doesn't have a known
+size at compile time, but holy hell working with these dynamic trait objects
+if a goddamn nightmare, as a noob rustacean anyway.
+
+So, I'm gonna rewrite the Command pattern. Or, more specifically, I'm going to
+redesign my implementation of polymorphism for Commands from the use of dyn
+trait objects to enum variants.
+
+The downside is that it'll be less extensible; adding functionality later will
+require changes in more areas of code. The upside - enum variants are always
+Sized. Admittedly, they're Sized somewhat inefficiently (again, by necessity,
+this isn't 'bad' on Rust's part) as they are always sized according to their
+enum's largest possible variant, but hey... it's 2022 and my tiny self-built
+computer that literally fits in one hand has 16GB of RAM with room for 32GB
+so... who cares. That's basically infinite, considering my graphics are ASCII
+based. (Hopefully UNICODE in the future -- one step at a time, though).
+
+Anyway, that's all for now. Don't know why you're still reading this.
+
+11:21AM - 01/07/2022 (07/01/2022 for the EU folks)
+
+P.S. If you work for a sofware company, ask me for my resume. Junior Dev or
+Tech. Writer at your service. Need some bread for my table.
