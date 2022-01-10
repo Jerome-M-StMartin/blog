@@ -1,0 +1,26 @@
+Jan. 9, 2022
+
+Today's Topic:
+"Oh god, oh god, why did I implement it this way, what was I thinking?"
+
+Followed by a large dose of:
+"Oh yeah, that's why."
+
+Bloody hell.
+
+Anyway, almost done mashing my custom GUI crate in with the pre-existing
+code-base for GoblinRL. So, so close. All that's left is to re-enable all
+the user input options which were available previously, tie them to their
+respective systems from the 'old code', and then -- the big nasty job --
+cleanup.
+
+And boy howdy does this code need some cleanup, after what I've just
+put it through.
+
+Oh and I guess I should liberally sprinkle in some more comments too.
+
+Sincerely,
+
+Jerome "Why Are You Still Reading This Blog" St.Martin
+
+
