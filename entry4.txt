@@ -1,0 +1,13 @@
+Jan., 12, 2022
+
+So, I've got a blindspot, but I am no longer blind to it. It's got a name:
+Closures and First-Class Functions.
+
+To be clear, I've been aware of these things for a while, but I didn't
+understand them. I've never used them. I've never considered them in my
+designs. I aim to change that.
+
+Pretty slow going since I'm so focused on my game rn - it makes starting any
+side projects -- no matter how small -- feel like a distraction.
+
+That's all for now.
