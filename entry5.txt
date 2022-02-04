@@ -1,0 +1,26 @@
+02/03/2022
+
+Took a visit back down the rabbit-hole of "OO vs Functional Programming",
+and again I found no answers, only highlights of facts that I nod my head
+at and think, "Yeah, that is a problem."
+
+Overall, I wouldn't describe that time spent as a waste, even if I didn't
+arrive at any answers. It's important to keep the pitfals of certain paths
+in mind so as to avoid them as best possible.
+
+Though some are simply unavoidable, such as the horrific bloat that OOP
+inherently causes. Nounification requires more nounification and sometimes
+it gets absolutely brutal to keep track of all the ways in which a certain
+noun doesn't quite exactly encapsulate all the behaviour its name suggest
+it should.
+
+I am so, so very tempted to say that this must mean that OOP is bad, or
+that I've implemented the paradigm incorrectly, but the fact of the matter
+is that sometimes an object needs access to data that it, conceptually
+speaking, shouldn't really have any business with, if you were to consider
+its noun-name only.
+
+So, perhaps I have done it badly, but bad code that works isn't so bad
+as the word bad, you know?
+
+Anyway, signing off for now. Godspeed.
