@@ -1,0 +1,47 @@
+Feb 11th, 2022
+
+Still working in this branch I called "UI_integration", but it's become a
+misnomer. The UI architecture I started the branch with is pretty much
+entirely gone; every GUI submodule rewritten. It's not ugly, but the branch
+just kinda doesn't fit anymore.
+
+Yet, a merge into the trunk doesn't feel right yet. The GUI isn't even like...
+working. Well, that's not true either. Everything currently written works
+fine, but it doesn't yet draw anything to the context (a terminal emulation,
+in my case). So, from the user perspective, the branch doesn't do anything.
+
+In fact, it does less, because the old GUI actually displayed some G(raphics).
+Which feels bad from my end, because so much work has gone into designing the
+architecture. So much learning to show but nothing showing.
+
+OOP programming is so slow sometimes. So many layers of abstraction all for
+the sake of conceptual structure that doesn't actually 'do' anything different
+than the spaghetti it could be. It just makes it easy to hold on to and turn
+around in the mind's eye later -- which is valuable, but not to the user.
+
+Anyway, I really hope I can get these widgets drawing by the end of the
+week. I'm taking it slow, though I would prefer to cram indefinitely.
+
+I don't really have a choice in the matter,
+the walls of my psyche refuse to flex further.
+
+Not really interested in getting into the details since this is public, suffice
+it to say that neurotypicallity is difficult to determine from the confines of a
+single mind; therapy costs money I don't have; employeers in this field have the
+luxury of being picky. Makes a person feel pointedly un-person-like, when taken
+as a whole.
+
+To avoid ending on a downer, I'm happy to report that I'm now at the point
+that I'm re-using code every time I add new functionality to my architecture.
+It feels great. In this case, it's making widgets Observers of UserInput,
+which means they implement both my Observer and Commandable traits. Finally
+noticing some payoff from the heavy abstraction overhead.
+
+- - - 
+
+It feels like, meals-lite grind to find
+feel-right ways to bind signs to mind's rind
+curse fuss the worst stuff
+then sell soul for mouthfuls
+
+- - -
