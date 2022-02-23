@@ -1,0 +1,30 @@
+Feb 23, 2022
+
+Well, job hunting is horrible, but what's new?
+
+Well, I'm almost done implementing my idea of what a gui widget *is* into my
+game, GoblinRL. It's very fun, actually. At first, I was looking at building
+the GUI as a chore, but now that I'm eye-deep in the bantha pudu it's actually
+quite enjoyable. I got to write, from scratch, a bunch of OOP concepts I had
+previously only read about, and now I'm getting to re-use what I've already
+written.
+
+Often requiring minor tweaks to what I'm re-using, but hey, that's HUGE
+progress from when I started this project, at which time I was basically
+completely re-writing every single thing I ever tried to re-use because I
+immediately realized how horrible my implementation was.
+
+I'm finally building an instinct for code architecture in Rust, and it feels
+
+really
+
+decent.
+
+D-E-eecent.
+
+Catch the reference if you can,
+from your neighborhood
+coding
+man.
+
+Bye.
