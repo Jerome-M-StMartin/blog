@@ -1,0 +1,53 @@
+March 18, 2022
+
+Don't remember what I wrote in my previous post - it's been a minute.
+Almost set the repo private until I re-read everthing,
+but that felt like a need for control
+which I don't have space for right now.
+
+What I do have space for is applying for jobs and writing non-code things.
+But, I need to get back to coding GoblinRL. I'm experiencing a lack of vision.
+I've just finally got one widget instancing and working as designed, but now
+comes the time to make all the HUD widgets and I'm just not sure how I want it
+to look. So I haven't been coding much, because
+
+I do this kind of design work on paper. Since the game is comprised of a grid
+of cells, graph paper works great. Final versions I do put into digital form,
+such as this concept I had for ability/action cards:
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ ⌜ ◁⦕ Sudden  Lunge ⦖▷ ⌝ ┃
+┃                         ┃
+┃ ┌Cost─────────────────┐ ┃
+┃ │ ⭮ ﹢⧗ ﹢♦ ♦ ♦       │ ┃
+┃ └─────────────────────┘ ┃
+┃            ⎯            ┃
+┃ ┌Effect───────────────┐ ┃
+┃ │Deal Piercing Weapon │ ┃
+┃ │Damage to any target │ ┃
+┃ │creature at Range 1. │ ┃
+┃ │                     │ ┃
+┃ │Overexertion: Pay ⧗⧗ │ ┃
+┃ │after this action    │ ┃
+┃ │resolves.            │ ┃
+┃ └─────────────────────┘ ┃
+┃ ⌞           Rarity: 🟂 ⌟ ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+I think it looks great - this is one facet of the polgon that represents the
+aesthetic of GoblinRL. It's hard to not have a sci-fi vibe in UNICODE-only art.
+Which makes me want to pivot to making a Master of Orion 2 derivative instead,
+sometimes. But, at this point, I'm excited to know that eventually I'll be
+able to make both games off this same foundation of code I'm building now.
+
+The "Rarity" at the bottom-right is not related to NFTs, btw. It's rng rarity.
+
+Shoutout (again?) to the creator of bracket-lib, the library I use to avoid
+learning how to effeciently write to the terminal buffer directly, among other
+things. I'll probably not implement A* on my own again - then again... maybe a
+custom pathing algorithm would be a fun to code.
+
+Anyway,
+You should probably stop reading these.
+
+bye
