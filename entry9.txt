@@ -1,0 +1,37 @@
+April 4, 2022
+
+Okay so this part of the project is basically just studying the bracket-lib
+codebase, which is minimally fun, but also somewhat exciting since I'm
+essentially learning how to optimize draw call to the terminal.
+
+Thus the lack of commits lately. Also I just haven't been putting in the
+hours. Too many job applications taking up my mental. Anyway,
+
+What am I talking about?
+
+So, I gotta back way up for a second. This project, GoblinRL, was begun
+back when I was very much in "tutorial hell" in my learning-rust journey.
+So I was naively (as a CS term) following bracket-lib's accompanying
+roguelike-tutorial as I found my sea legs.
+
+Once I found those legs, I stopped following the tutorial. This was my goal
+from the beginning, but what I didn't realize from the beginning was that,
+generally speaking, the tutorial IS THE DOCUMENTATION for bracket-lib!
+
+That, or I missed and continue to miss the actual docs.
+
+Which leaves me in a very awkward position right now, because I'm looking at
+some old direct-from-tutorial code which writes and renders in a way that is
+OBVIOUSLY meant to be re-written in a more performant way.
+
+But I have NO idea how the library wants to be used in this more performant
+way. So I'm figuring that out, without documentation.
+
+This isn't a complaint, only an observation. I don't mind much at all,
+really; after all, it's temporary struggle. Future jobs with existing
+codebases will always have excellent documentation with 100% coverage,
+right?
+
+Right?
+
+And he coded happily ever after, The End.
