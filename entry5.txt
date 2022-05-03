@@ -11,7 +11,7 @@ in mind so as to avoid them as best possible.
 Though some are simply unavoidable, such as the horrific bloat that OOP
 inherently causes. Nounification requires more nounification and sometimes
 it gets absolutely brutal to keep track of all the ways in which a certain
-noun doesn't quite exactly encapsulate all the behaviour its name suggest
+noun doesn't quite exactly encapsulate all the behaviour its name suggests
 it should.
 
 I am so, so very tempted to say that this must mean that OOP is bad, or

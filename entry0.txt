@@ -21,15 +21,19 @@ Genre: Rogue-like w/ meta-progression
 Language: Rust
 Paradigms: ECS for the core, OOP for the GUI
 Gimmick: REDACTED
-Story: You play the part of a Goblin of the lowest social class, a digger in
-the mines of a warren located deep in the crust of a far distant Earth. One
-day, you uncover an ancient artifact -- a lockbox, a safe with hinges long
-since rusted away to nothing. Insidei, a metallic object obviously meant to fit
+Story:
+ You play the part of a Goblin of the lowest social class, a digger in
+the mines of a warren located deep in the crust of a temporally distant Earth.
+
+ One day, you uncover an ancient artifact -- a lockbox, a safe with hinges long
+since rusted away to nothing. Inside, a metallic object obviously meant to fit
 in the palm of a very large hand, but not so large that you aren't able to
 grasp it in your small calloused palms. A small protrusion juts out before
-your finger, obviously some sort of lever. You pull it-
-BANG!
-The shock of the noise stabs your ears like the realization of what this
+your finger, obviously some sort of lever. You pull it.
+
+ BANG!
+
+ The shock of the noise stabs your ears like the realization of what this
 object is stabs your mind. It's dragonfire - a gun. It works. And after further
 examination, it seems it will work five more times. You hope this is enough to
 change your life. You hope that after showing your new power five times, you
@@ -37,9 +41,11 @@ will be gone from this life and begun on a new one. One where, instead of
 digging for others, maybe -- for once in your life -- you'll be able to dig
 your own mine.
 
+---
+
 All I have to add to the above at this time is that Rust is a fantastic
 language, I absolutely adore how ugly it makes Java seem by comparison. Like,
-wow, Java, brush your damn teeth once a decade at lease, please. PLEASE.
+wow, Java, brush your teeth, please.
 
 After re-reading the start of this, all I can say is that I hope to improve
 the readability of this text in the future. I address it to you, dear reader,

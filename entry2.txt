@@ -31,7 +31,7 @@ dealing with unsized dynamic Command<T> trait objects being !Send and/or !Sync
 This isn't a criticism, and I don't think them not being Sized is an issue with
 the language. It makes perfect sense why a dynamic object doesn't have a known
 size at compile time, but holy hell working with these dynamic trait objects
-if a goddamn nightmare, as a noob rustacean anyway.
+is a goddamn nightmare, as a noob rustacean anyway.
 
 So, I'm gonna rewrite the Command pattern. Or, more specifically, I'm going to
 redesign my implementation of polymorphism for Commands from the use of dyn
