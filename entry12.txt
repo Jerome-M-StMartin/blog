@@ -1,0 +1,23 @@
+Okay, yeah,
+that was throwing the baby out with the bath water.
+
+Taking a far less extreme approach - yanking weeds & leaving flowers.
+
+What this means is eliminating all the "legacy code" from when I was
+follwing the RLTK tutorial and added a bunch of functionality that I
+have no intention of using. At the time it was wonderful practice,
+now, it's bloat.
+
+For example, GoblinRL can procedurally generate random maps in like
+10 different ways -- and I definitely don't plan on using 9 of them.
+So... out it goes.
+
+Some of the flowers are things like being able to use tilesets in place
+of text characters, if I want, and being able to render two different
+fonts in two separate parts of the terminal window, if I want.
+These I do plan on using, and I wouldn't have a clue how to implement
+most of it on my own.
+
+So.
+
+Thanks again to bracket-lib & it's writer, Herbert.
