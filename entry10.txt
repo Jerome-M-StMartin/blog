@@ -1,0 +1,68 @@
+HEY
+Long time no see.
+
+So I'm falling into a slow trap, maybe you've heard of something like it,
+something often talked about in a way similar to:
+
+"If you want to program a game, don't program a game engine."
+
+The reason being that you'll never actually make the game. Well,
+I'm doing that -- because my goal is not to make a game. My goal
+is to learn how to write excellent Rust software; my medium of
+self-learning just happens to be a game.
+
+Just happens. Kinda bs. Really it's because I find it the most
+interesting problem to solve - probably because there are no
+concrete answers. It's just a constant stream of "Will humans
+like this?"
+
+And we all know how fickle the human being can be,
+especially while it's busy being.
+
+Very fun.
+
+Anyway, I'm abandoning bracket-lib. Its ownership has been passed
+off to Amethyst (an in-progress rust game engine) which itself seems
+to be dying. So... I mean, I don't really need most of what bracket-lib
+offers anyway, but, maybe it's good for you so before you jump on my
+very small bandwagon let me say that bracket-lib is wonderful, if:
+
+A.) You don't want to write common game algorithms from scratch.
+B.) You want to release a terminal game quickly.
+C.) ???
+
+I'm not sure where the profit lies but I'm gonna be an engine dev now
+I guess. Further delaying the design phase of the vertical slice! Woo!
+This is bad for my wallet but gooder for my brains.
+
+Okay so what's changing, exactly?:
+
+1.) Learning to use Crossterm directly:
+	bracket-lib uses this library as a back-end,
+	and in studying how to draw to the terminal
+	buffer in bracket-lib I realized I'm being
+	coralled through a very restrictive interface
+	into crossterm. My terminal-only restriction
+	is strict enough; goodbye bracket-lib.
+2.) Write my own game loop and main game state struct interface.
+	Another thing bracket-lib handles for me currently,
+	but this is so... basic, do I really need my hand held?
+	Hypothesis: no.
+
+3.) ???
+	I'm sure bracket-lib is doing other nice things for me,
+	but frankly... I just don't need or want any of it.
+	All the built-in algorithms are things I can and want to
+	write on my own, and the biggest thing I wanted from it
+	is its own library, which is NOT currently deprecating.
+	It's SPECS, btw. An initial goal of this project was to
+	gain on understanding of ECS Architecture, which was a
+	success. Feature creep tho, you know?
+
+Okay I'm tired of prose, time to code. Bye.
+
+P.S.
+I have covid, but am vaccinated so
+the worst part is how absolutely
+sick and tired I am
+of being on my couch.
