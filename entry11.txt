@@ -1,0 +1,10 @@
+My plan to nix bracket-lib entirely from my code, as I stated in entry10,
+might be completely ridiculous.
+
+Idk.
+
+Currently exploring the option.
+I would like to do it.
+But,
+man,
+it's a lot of work. 
