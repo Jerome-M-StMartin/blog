@@ -20,4 +20,4 @@ most of it on my own.
 
 So.
 
-Thanks again to bracket-lib & it's writer, Herbert.
+Thanks again to bracket-lib & its writer, Herbert.

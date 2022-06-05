@@ -1,0 +1,69 @@
+Okay, so you're gonna learn something about me today. Like other humans, I
+can be... indecisive.
+
+I'm throwing the baby out with the bathwater, a la the phrase common to
+budding writers: "Learn to kill your babies."
+
+Obviously not your actual biological children; what this coloquialism gets
+at is the importance of not becoming attached to ideas, not falling prey
+to the Sunk-Cost Fallacy, and not letting your work become precious. It
+advocates for doing what is best for the work, which -- very often --
+causes a whole truckload of cognitive dissonance. It "feels bad".
+
+Anyway, I did that. I intentionally did some "feels bad" things, and I
+gotta say: now that I've done it, it feels GREAT. Not to say that I'm
+"done" with this new change... but I digress, I haven't even told you
+what I've done. Here, anyway. I said it in an earlier entry.
+
+I started over -- from scratch. And this time, I'm not using a game
+engine, game library, or any other such thing. The largest bit of
+code written by others I'm using is specs (https://crates.io/crates/specs),
+and maybe serde (https://crates.io/crates/serde). Otherwise, I'm basically
+writing a game engine now, in addition to a game.
+
+Which is fine.
+
+Oh, I'm also using crossterm (https://crates.io/crates/crossterm), which
+I had a few misconceptions about. Now that I'm using it directly, rather
+than abstractly as a dependency of a dependency, it's clicked. There are
+some new constraints - one of which being that I won't have as much
+control over the 'look' of my game. It'll be up to the User to choose
+their terminal emulator and font. This is a big deal, considering that
+the font of this game comprises THE ENTIRETY OF ITS VISUAL EXISTENCE.
+
+Of course, I will include a suggested open-source font with the binary
+of the game, once its released. Along with a ReadMe on how to use it, and
+maybe a suggestion of what terminal emulator to use (since not all fonts
+are supported by all terminals) but still... the loss of control is
+somewhat unsettling.
+
+On the upside, it means there's a whole class of learning and challenge
+that I don't have to learn or overcome. My game writes to the terminal,
+that's it. No fancy anything. No sprites, no OpenGL, no pseudoterminal,
+no graphical shenanigans of any kind whatsoever.
+
+On the neutral-side, in order to use multiple fonts (which is very
+important, actually) I'm gonna have to figure out some sort of hack or
+workaround. I'm thinking maybe using a second terminal window popup, or
+another tab, to display readable text.
+
+If you're lost: the text that displays the game world is not very readable,
+because it is not like this text you're reading now. This text is like...
+24x60 pixels or something like that. Each cell which each character lives
+inside of is taller than it is wide. This is bad for the game world,
+because it makes the world 'appear' taller than it really is. So circles
+look like ovals, and squares like rectangles, etc; despite the fact that
+they are not -- as far as the game engine is concerned.
+
+So, by using a square, X-by-X pixels-per-character font, this issue is
+eliminated. In doing so, t h e  t e x t  s t a r t s  t o  l o o k
+k i n d a  l i k e  t h i s . Good for the look of the game world, bad
+for reading dialogue, menu text, item descriptions, etc.
+
+Anyway, that's where I'm at. The code is looking MUCH cleaner, and I've
+been able to implement some features that would have taken me weeks in
+a matter of days simply because the code base is back to zero. (And
+before it was a horrific mess -- something I am only now seeing clearly.)
+
+That's all. Are you still here?
+Goodbye for now.
