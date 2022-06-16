@@ -1,0 +1,80 @@
+Hello!
+
+Again!
+
+Okay so, hear me out for a sec, Me. I need to run something by you, Me, and
+hopefully you, Me, can tell me if I am insane. If we are insane, I mean.
+
+Do you know what I mean, Me?
+
+Okay okay, so here's the tea. I'm thinking of not using the specs crate
+(https://crates.io/crates/specs) for GoblinRL's ECS architecture. But,
+I still want to base the game on an ECS architecture.
+
+In addition, I'm thinking of not using any other crate that currently exists
+either. Or any other ECS library in any other language. Which leaves one final
+option:
+
+	I'm thinking of writing my own ECS library.
+	
+	So am I insane, or... ???
+
+I'm thinking, no, probably not, but perhaps I am disrespecting my time?
+Then again, I really, REALLY need to get a library, application, or useful
+script out into the world in a COMPLETE form asap.
+
+Because I really need definitive, hard proof that I am capable of working
+in the software development industry. And, while I have completed more
+sub-projects than I can recall, I have completed very, very few COMPLETE
+projects. And those, of course and reasonably so, are what hiring managers
+want to see. Right?
+
+So, maybe instead of crunching for half a year straight to finish my game,
+I can crunch for about two weeks and get myself a minimal ECS system published
+to crates.io, which I can then use in my own game (and game engine, idk
+they're still the same thing in my head; this needs to change.)
+
+
+Benefits:
+
+1.) I can document the ECS such that it is FAR more understandable and
+readable than specs, which is... decently well documented, I guess? But wow,
+there's a lot going on. It's very complex -- way more complex than I need for
+GoblinRL. So... that makes me feel like its bloat, which feels un-good.
+
+2.) I can learn, from the ground up, exactly what it takes to write an ECS
+library from scratch. I really, really love learning by doing. It feels great
+and cements the knowledge beyond what is possible by study alone. This is
+known.
+
+3.) In a relatively short amount of time, I will be able to provide PROOF,
+beyond a shadow of a doubt, that I can write performant, well-documented,
+thread-safe, and COMPLETE software. So, basically, I'll be able to pivot back
+to job-hunting. Which becomes more necessary by the day.
+
+4.) I've already implemented read/write guards over specs Components and
+Resources allowing thread-safe access to both in a concurrent environment. So,
+I'm already super confident in that part of writing my own ECS. And,
+honestly, this is how I arrived at this idea. I've been reading through the
+specs documentation and STRUGGLING to figure out how to use it in a concurrent
+setting. It warns about concurrent storage & resource access all over the
+place but it doesn't do much in the way of suggesting how to access these
+structures outside of very strict pre-prescribed ways (i.e. SystemData.) It
+does expose both read and write access though, so I just wrote my own
+concurrency control abstraction layers over the top. Should I continue this
+trend?
+
+Downside:
+1.) People have done it already, and done it well:
+https://crates.io/crates/specs
+https://crates.io/crates/bevy_ecs
+https://crates.io/crates/tiny_ecs
+https://crates.io/crates/hecs
+https://crates.io/crates/legion
+
+
+Decided to edit this for exactly zero iterations.
+Probably said a bunch of wrong things.
+And probably typos.
+
+Bye.
