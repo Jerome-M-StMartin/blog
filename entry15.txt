@@ -1,0 +1,54 @@
+Whelp, it finally happened!
+
+So, was working happily on ecs_it (the ECS Architecture library I mentioned in
+my last entry), and it was going well. Very well, I'm pretty happy with how my
+implementation is coming along.
+
+Then I got a message on LinkedIn, which lead to an interview, where I was told
+something along the lines of "I would hire someone who could code Tetris." I
+wasn't asked to do this, it was more of an off-hand remark, though I was
+tasked with desinging 'how' I would go about programming a Tetris clone. But,
+after making a class diagram and covering some other things I was asked to
+study...
+
+I thought, "Well, shoot, maybe I should just try implementing it."
+
+We had scheduled a 2nd interview for ~48 hours later. I was pretty busy for
+that first 24hrs, but for the rest... I figured I should just give it a shot,
+you know? See if I could make a somewhat playable implementation of Tetris in
+24 hours. Well, actually my goal was to draw a grid with falling pieces that
+can rotate, and that's it. I figured that might be achievable, but a playable
+game? Unlikely.
+
+Turns out I don't know shit, because I got a playable prototype working in
+about 23hrs, Though, other than sleeping, eating, and paying my porcelain
+taxes, I admit I didn't do much else but code for those 23 hours. Not super
+healthy, and my implementation is certainly NOT feature complete, but the core
+gameplay is there, anyway:
+
+I got a job! It paid off. Not the only reason I got the job (I made sure to
+ask) but... wow. Holy shit. Finally. 
+FINALLY.
+
+Quick shout out to [REDACTED], for seeing my potential. I appreciate it
+immensely. It's been... a challenge -- I'm happy to finally be at some sort of
+peak of this mountain of learning I've been climbing, and am excited to
+continue climbing.
+
+But,
+
+I really, really needed this place to rest my feet for a moment.
+
+I wish this priviledge of unto those who don't have it.
+
+P.S. A certain 6-3 vote passed yesterday, by a certain institution which is
+intended to be respectable. Wow -- here we go 'round the carousel again, I
+guess. There can be no doubt about the path we're on at this point, in this
+country, on this world, this speck of dust in an infinite void, floating,
+floating, floating... does this make you hopeless of hopeful?
+
+	Circles are unmoving myths of immobile Points of view,
+	from perpendicular sight they appear as Waves,
+	and with omniscience only Spirals are true.
+
+-JMS
